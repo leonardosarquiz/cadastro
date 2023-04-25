@@ -51,6 +51,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <link rel="stylesheet" href="styles.css">
   <title>Cadastro</title>
   <style>
+    /* estilos para as mensagens após o envio do cadastro */
     .errocadastro {
       background-color: #F5F5F5;
       color: #ff0000;
@@ -96,9 +97,10 @@ font-size: 16px;
 
 </head>
 <body>
+  <!-- Estrutura do Cadastro -->
 <section class="container">
     <form action="" method="post" class="formcadastro">
-
+  
       <div class="cadastrocontainer">
         <h1>Informações básicas</h1>
 
