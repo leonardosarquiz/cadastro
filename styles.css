@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none;
+}
+
+.container {
+
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+label, input {
+  display: block;
+ 
+}
+.formcadastro {
+  background-color: #FFFFFF;
+  border: 1px solid #E0E2E4;
+border-radius: 8px;
+  width: 784px;
+  height: 366px;
+  z-index: 2;
+
+}
+
+.cadastrocontainer {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.cadastrocontainer h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 115%;
+color: #23152B;
+padding-bottom: 16px;
+}
+.cadastrocontainer label {
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 115%;
+color: #707274;
+padding-bottom: 7px;
+}
+
+
+.nomeinput {
+  margin-bottom: 7px;
+  padding: 12px 16px;
+  width: 352px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #E0E2E4;
+border-radius: 8px;
+color: #343536;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+}
+.emailinput {
+  padding: 12px 16px;
+  width: 352px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #E0E2E4;
+border-radius: 8px;
+margin-bottom: 40px;
+color: #343536;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.btn {
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 115%;
+color: #343536;
+width: 78px;
+height: 40px;
+border: 1px solid #E0E2E4;
+border-radius: 8px;
+padding: 10px;
+cursor: pointer;
+background-color: #fff;
+}
+
+
+
